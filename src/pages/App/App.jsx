@@ -5,6 +5,7 @@ import SignupPage from '../SignupPage/SignupPage';
 import LoginPage from '../LoginPage/LoginPage';
 import userService from '../../utils/userService';
 import NavBar from '../../components/NavBar/NavBar';
+import QuestionPage from '../QuestionPage/QuestionPage';
 
 class App extends Component {
   constructor() {
@@ -34,7 +35,7 @@ class App extends Component {
         />
         <Switch>
           <Route exact path='/' render={() =>
-           <div>Hello World!</div> 
+            <QuestionPage />
           }/>
           <Route exact path='/signup' render={({ history }) => 
             <SignupPage
