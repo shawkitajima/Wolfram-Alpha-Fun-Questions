@@ -2,6 +2,8 @@
 
 This is a really straightforward MERN application with no authentication that allows users to ask questions to Wolfram Alpha, and displays all answered questions.
 
+Deployed at: https://wolfram-alpha-fun-questions.herokuapp.com/
+
 # All That Jazz from React
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
