@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    padding: 2rem 2rem;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 2rem;
+}
+
+.bubbleLeft {
+    border-radius: 25px;
+    background-color: #545555;
+}
+
+.bubbleRight {
+    border-radius: 25px;
+    background-color: #2C73DF;
+}
+
+h2 {
+    padding: 0.5rem 0.5rem;
+    color: white;
+}

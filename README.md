@@ -1,22 +1,6 @@
+# Woflram Alpha Facts
 
-# React Token Based Web Auth Starter Code
-
-Welcome to the README for some easy starter code to get your MERN
-app going with user authentication with JWT.
-
-## Instructions
-- After cloning this project and installing the dependencies, you will need to add a ".env" file in the root directory and add the following:
-
-    - `DATABASE_URL=\<Your Database URL>`
-
-    - `SECRET=\<Your String of Choice>`
-- Then in terminal:
-    - `$ npm run build`
-- Then open two different terminals and run each of the below separately
-    - `$ nodemon server`
-    - `$ npm start`
-
-The world is now your oyster. Go for it, you amazing developer!
+This is a really straightforward MERN application with no authentication that allows users to ask questions to Wolfram Alpha, and displays all answered questions.
 
 # All That Jazz from React
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

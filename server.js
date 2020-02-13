@@ -15,7 +15,6 @@ app.use(favicon(path.join(__dirname, 'build', 'favicon.ico')));
 app.use(express.static(path.join(__dirname, 'build')));
 
 // Put API routes here, before the "catch all" route
-app.use('/api/users', require('./routes/api/users'));
 app.use('/api/wolfram', require('./routes/api/wolfram'));
 // app.use(require('./config/auth'));
 
