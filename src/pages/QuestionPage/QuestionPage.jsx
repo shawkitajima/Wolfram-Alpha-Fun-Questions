@@ -26,7 +26,7 @@ const QuestionPage = () => {
 
     return (
         <div className={styles.container}>
-            <h1>Ask any question you want!</h1>
+            <h1>Ask any question you want! Wolfram Alpha will try to answer</h1>
             <input placeholder="Ask whatever you want" onChange={evt => setQuestion(evt.target.value)}></input>
             <button onClick={() => askQustion(question)}>Submit</button>
             {error && (
